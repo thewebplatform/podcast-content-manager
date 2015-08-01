@@ -2,6 +2,15 @@
 
 A content manager system for The Web Platform Today site.
 
+## Installation
+
+The package depends on a bunch of pre-requisites for the [node-waveform](https://github.com/andrewrk/node-waveform) project.
+
+1. Install [libgroove](https://github.com/andrewrk/libgroove) dev package. Only the main library is needed. Packages are available for common package managers.
+2. Install libpng and zlib dev packages.
+3. `npm install`
+
+
 ## Steps to add an episode content
 
 - In the `episodes` folder create a file called `episode_num.json`. For example, if the episode number is **45**, then you will need to create the file called `045.json`.
