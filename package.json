@@ -1,0 +1,24 @@
+{
+  "name": "podcast-player-content-manager",
+  "version": "0.0.1",
+  "description": "A content manager system for The Web Platform Today site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prateekjadhwani/podcast-player-content-manager.git"
+  },
+  "author": "Prateek Jadhwani <prateekjadhwani@users.noreply.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prateekjadhwani/podcast-player-content-manager/issues"
+  },
+  "homepage": "https://github.com/prateekjadhwani/podcast-player-content-manager",
+  "dependencies": {
+    "cli-color": "^1.0.0",
+    "jsonfile": "^2.2.1",
+    "waveform": "^2.0.0"
+  }
+}
