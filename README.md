@@ -30,6 +30,9 @@ A content file should have the following keys
 | summary | String | The summary of the episode |
 | mp3 | String | The location of the mp3 file |
 | resources | Array of Objects | The resources used in this episode. Consists of a `title` and a `link` |
+| panelists | Array of Objects | The panelists who particilated in this episode. Consists of `screen_name` i.e. their twitter handle, `summary` of what they do, and `github` link to their profile. |
+| tags | Array of Strings | The tags associated with this episode. |
+| date | String | The date on which this episode is recorded. |
 
 **Note**: The local mp3 file needs to be a local copy of the podcast file in the `mp3` folder. This local file will never be promoted. It is in the mp3 folder just to generate the waveform. Once the `datapoints` are generated, feel free to delete the local copy of the mp3.
 
@@ -56,6 +59,24 @@ Example
       "title": "Definitely Typed",
       "link": "https://github.com/DefinitelyTyped"
     }
-  ]
+  ],
+  "panelists": [
+    {
+      "screen_name": "prateekjadhwani",
+      "summary": "Some stuff about me",
+      "github": "https://github.com/prateekjadhwani"
+    },
+    {
+      "screen_name": "eisaksen",
+      "summary": "Some stuff about me",
+      "github": "https://github.com/Nevraeka"
+    }
+  ],
+  "tags": [
+    "angular",
+    "polymer",
+    "more cool stuff"
+  ],
+  "date": "14th August 2015",
 }
 ```

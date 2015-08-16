@@ -20,6 +20,24 @@
         "link": "https://github.com/DefinitelyTyped"
       }
     ],
+    "panelists": [
+      {
+        "screen_name": "prateekjadhwani",
+        "summary": "Some stuff about me",
+        "github": "https://github.com/prateekjadhwani"
+      },
+      {
+        "screen_name": "eisaksen",
+        "summary": "Some stuff about me",
+        "github": "https://github.com/Nevraeka"
+      }
+    ],
+    "tags": [
+      "angular",
+      "polymer",
+      "more cool stuff"
+    ],
+    "date": "14th August 2015",
     "datapoints": [
       0.1846,
       0.1711,
@@ -844,6 +862,24 @@
         "link": "https://github.com/DefinitelyTyped"
       }
     ],
+    "panelists": [
+      {
+        "screen_name": "prateekjadhwani",
+        "summary": "Some stuff about me",
+        "github": "https://github.com/prateekjadhwani"
+      },
+      {
+        "screen_name": "eisaksen",
+        "summary": "Some stuff about me",
+        "github": "https://github.com/Nevraeka"
+      }
+    ],
+    "tags": [
+      "angular",
+      "polymer",
+      "more cool stuff"
+    ],
+    "date": "14th August 2015",
     "datapoints": [
       0.1846,
       0.1711,
